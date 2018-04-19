@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="leo" type="color">#436ecd</item>
+    <item name="nadja" type="color">#21ac94</item>
+    <item name="mark" type="color">#29ae5c</item>
+    <item name="teresa" type="color">#a6c706</item>
+    <item name="georgina" type="color">#ff7308</item>
+    <item name="lucia" type="color">#ff7307</item>
+    <item name="jelena" type="color">#f0592f</item>
+    <item name="liby" type="color">#cd4b7d</item>
+    <item name="tibor" type="color">#9d5cb3</item>
+    <item name="sergio" type="color">#675cb3</item>
+
+    <integer-array name="avatar_colors_set">
+        <item>@color/leo</item>
+        <item>@color/nadja</item>
+        <item>@color/mark</item>
+        <item>@color/teresa</item>
+        <item>@color/georgina</item>
+        <item>@color/lucia</item>
+        <item>@color/jelena</item>
+        <item>@color/liby</item>
+        <item>@color/tibor</item>
+        <item>@color/sergio</item>
+    </integer-array>
+</resources>
