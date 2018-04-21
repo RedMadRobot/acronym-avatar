@@ -5,7 +5,7 @@
 
 ### Description
 
-AcronymAvatar is a terribly simple library to show avatars with acronyms in your application. Would you like to show user's list in your messenger (yet another one...) or just create the unorthodox user profile? This library is the best choice for you.
+AcronymAvatar is a dumb simple library to show avatars with acronyms in your application. Should you like to show user's list in your messenger (yet another one...) or just create an unorthodox user profile? This library is the best choice for you.
 
 ### Getting started
 
@@ -37,13 +37,13 @@ That's all!
 * Configuring zoom out for the acronym
 
 ##### Setting text via XML and programmatically
-Building acronyms by text works like this: if you pass one word to the `setText` method or to the `app:text` XML field then the library will take only two first symbols and show them as an acronym. If you pass two or more words then the library will take the first symbols from first and second words only and show them as an acronym. For instance:
+Composing acronyms from text works like this: when you pass a single word through the `setText` method or through the `app:text` XML field, the library takes only first two symbols, and makes them an uppercased acronym. In case there are two or more words, the library takes first symbols from first and second words only, and makes them an uppercased acronym. For instance:
 * Captain -> CA
 * Captain Nemo -> CN
 * Nemo, my name forever more -> NM
 
 ##### Using custom placeholders (Drawables only!)
-We like our default placeholder very much, but you won't probably want to use it in real-world applications ;) For this case we augmented our library by setting custom placeholder feature. You can set it via XML as following:
+We like our default placeholder very much, but you won't probably want to use it in real-world applications ;) For this case we augmented our library with a custom placeholder feature. You can set it via XML as following:
 ```XML
     <com.redmadrobot.acronymavatar.AvatarView
         android:id="@+id/user_avatar"
@@ -53,7 +53,7 @@ We like our default placeholder very much, but you won't probably want to use it
 ```
 
 ##### Configuring zoom out for the acronym
-The library is preconfigured to using optimal text zooming out, but you can set your own value this way:
+The library is preconfigured to use optimal text zoom factor, but you can set your own value this way:
 ```XML
     <com.redmadrobot.acronymavatar.AvatarView
         android:id="@+id/user_avatar"
