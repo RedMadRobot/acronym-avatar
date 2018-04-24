@@ -1,4 +1,5 @@
 <img src="https://github.com/RedMadRobot/acronym-avatar/blob/assets/assets/logo.png" alt="Logo" />
+
 [![Bintray](https://api.bintray.com/packages/redmadrobot-opensource/android/acronym-avatar/images/download.svg)](https://bintray.com/redmadrobot-opensource/android/acronym-avatar/_latestVersion)
 
 <img src="https://github.com/RedMadRobot/acronym-avatar/blob/assets/assets/sample.png" alt="UI sample" width="310"/>
