@@ -1,12 +1,12 @@
-<img src="https://github.com/RedMadRobot/acronym-avatar/blob/assets/assets/logo.png" alt="Logo" />
+<img src="https://github.com/RedMadRobot/acronym-avatar/blob/assets/assets/logo.png" alt="Logo" width="500" />
 
 [![Bintray](https://api.bintray.com/packages/redmadrobot-opensource/android/acronym-avatar/images/download.svg)](https://bintray.com/redmadrobot-opensource/android/acronym-avatar/_latestVersion)
-
-<img src="https://github.com/RedMadRobot/acronym-avatar/blob/assets/assets/sample.png" alt="UI sample" width="310"/>
 
 # Description
 
 AcronymAvatar is a dumb simple library to show avatars with acronyms in your application. Should you like to show user's list in your messenger (yet another one...) or just create an unorthodox user profile? This library is the best choice for you.
+
+<img src="https://github.com/RedMadRobot/acronym-avatar/blob/assets/assets/sample.png" alt="UI sample" width="310"/>
 
 # Getting started
 
