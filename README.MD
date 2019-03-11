@@ -12,7 +12,7 @@ AcronymAvatar is a dumb simple library to show avatars with acronyms in your app
 
 Just include the library into your project as a Gradle dependency: 
 ```Groovy
-implementation 'com.redmadrobot:acronym-avatar:1.0'
+implementation 'com.redmadrobot:acronym-avatar:2.0'
 ``` 
 
 Then add `AvatarView` into your XML layout:
