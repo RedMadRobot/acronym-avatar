@@ -2,6 +2,7 @@ package com.redmadrobot.acronymavatar
 
 import android.graphics.*
 import android.graphics.drawable.Drawable
+import kotlin.math.min
 
 
 class AcronymDrawable(private val acronym: String, backgroundColor: Int, private val sizeFactor: Float) : Drawable() {
@@ -15,18 +16,16 @@ class AcronymDrawable(private val acronym: String, backgroundColor: Int, private
         setColors(backgroundColor)
     }
 
-    override fun draw(canvas: Canvas?) {
-        canvas?.let {
-            boundsRect.set(bounds)
+    override fun draw(canvas: Canvas) {
+        boundsRect.set(bounds)
 
-            paintText.textSize = bounds.height() / sizeFactor
+        paintText.textSize = bounds.height() / sizeFactor
 
-            val radius = Math.min(boundsRect.width(), boundsRect.height()) / 2
-            it.drawCircle(boundsRect.centerX(), boundsRect.centerY(), radius, paintBackground)
+        val radius = min(boundsRect.width(), boundsRect.height()) / 2
+        canvas.drawCircle(boundsRect.centerX(), boundsRect.centerY(), radius, paintBackground)
 
-            val yTextPosition = boundsRect.centerY() - paintText.ascent() / 2 - paintText.descent() / 2
-            it.drawText(acronym, boundsRect.centerX(), yTextPosition, paintText)
-        }
+        val yTextPosition = boundsRect.centerY() - paintText.ascent() / 2 - paintText.descent() / 2
+        canvas.drawText(acronym, boundsRect.centerX(), yTextPosition, paintText)
     }
 
     override fun setAlpha(alpha: Int) {

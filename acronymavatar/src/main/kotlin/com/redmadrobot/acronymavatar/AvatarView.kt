@@ -25,7 +25,7 @@ class AvatarView : AppCompatImageView {
 
     private val wordRegex = Regex("([a-zа-я]+)", RegexOption.IGNORE_CASE)
 
-    constructor(context: Context?) : super(context) {
+    constructor(context: Context) : super(context) {
         initView()
     }
 
